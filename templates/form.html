@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Madlib Form{% endblock %}
+{% block content %} 
+<body>
+    <h1>Madlib Form</h1>
+    <form action="/story">
+        <input type="text" placeholder="Place" name="place">
+        <input type="text" placeholder="Noun" name="noun">
+        <input type="text" placeholder="Verb" name="verb">
+        <input type="text" placeholder="Adjective" name="adjective">
+        <input type="text" placeholder="Plural_noun" name="plural_noun">
+        <button>Submit!</button>
+
+    </form>
+</body>
+{% endblock %}

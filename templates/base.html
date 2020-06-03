@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/form">Home</a>
+
+   </nav>
+    {% block content %} {% endblock %}
+    <br>
+    <footer>
+        pretend i am a footer 
+    </footer>
+   
+    <script src="/static/app.js"></script>
+</body>
+</html>
